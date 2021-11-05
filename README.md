@@ -57,4 +57,10 @@ Passe mais dois parâmetros para o seu gráfico, com o nome de cada eixo. <br>
 
 <img width="712" alt="Screen Shot 2021-11-05 at 10 27 39" src="https://user-images.githubusercontent.com/70045652/140517715-c0d2e658-1be1-47d5-8221-cf1a14920501.png">
 
+## Autores
+[Carolina Ortega](https://github.com/cahhortega) <br>
+
+[Gabriel Batista](https://github.com/batistagc) <br>
+
+[Guilherme Reis](https://github.com/Gui25Reis) <br>
 
