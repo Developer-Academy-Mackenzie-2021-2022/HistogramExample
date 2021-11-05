@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2211D95027359FA10040C5A6 /* Everest in Frameworks */ = {isa = PBXBuildFile; productRef = 2211D94F27359FA10040C5A6 /* Everest */; };
 		A002E15B2733069300C02D85 /* HistogramExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A002E15A2733069300C02D85 /* HistogramExampleApp.swift */; };
 		A002E15D2733069300C02D85 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A002E15C2733069300C02D85 /* ContentView.swift */; };
 		A002E15F2733069700C02D85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A002E15E2733069700C02D85 /* Assets.xcassets */; };
 		A002E1622733069700C02D85 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A002E1612733069700C02D85 /* Preview Assets.xcassets */; };
-		A034EDAD27348F400050B8F7 /* FrameworkDeGraficos in Frameworks */ = {isa = PBXBuildFile; productRef = A034EDAC27348F400050B8F7 /* FrameworkDeGraficos */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,7 +20,6 @@
 		A002E15C2733069300C02D85 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A002E15E2733069700C02D85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A002E1612733069700C02D85 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		A07657CE27348EF300AB260A /* FrameworkDeGraficos */ = {isa = PBXFileReference; lastKnownFileType = folder; name = FrameworkDeGraficos; path = ../../NC4/FrameworkDeGraficos; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -28,7 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A034EDAD27348F400050B8F7 /* FrameworkDeGraficos in Frameworks */,
+				2211D95027359FA10040C5A6 /* Everest in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,10 +37,8 @@
 		A002E14E2733069300C02D85 = {
 			isa = PBXGroup;
 			children = (
-				A07657CD27348EF300AB260A /* Packages */,
 				A002E1592733069300C02D85 /* HistogramExample */,
 				A002E1582733069300C02D85 /* Products */,
-				A034EDAB27348F400050B8F7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -72,21 +69,6 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		A034EDAB27348F400050B8F7 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		A07657CD27348EF300AB260A /* Packages */ = {
-			isa = PBXGroup;
-			children = (
-				A07657CE27348EF300AB260A /* FrameworkDeGraficos */,
-			);
-			name = Packages;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -104,7 +86,7 @@
 			);
 			name = HistogramExample;
 			packageProductDependencies = (
-				A034EDAC27348F400050B8F7 /* FrameworkDeGraficos */,
+				2211D94F27359FA10040C5A6 /* Everest */,
 			);
 			productName = HistogramExample;
 			productReference = A002E1572733069300C02D85 /* HistogramExample.app */;
@@ -135,6 +117,7 @@
 			);
 			mainGroup = A002E14E2733069300C02D85;
 			packageReferences = (
+				2211D94E27359FA10040C5A6 /* XCRemoteSwiftPackageReference "Everest" */,
 			);
 			productRefGroup = A002E1582733069300C02D85 /* Products */;
 			projectDirPath = "";
@@ -367,10 +350,22 @@
 		};
 /* End XCConfigurationList section */
 
+/* Begin XCRemoteSwiftPackageReference section */
+		2211D94E27359FA10040C5A6 /* XCRemoteSwiftPackageReference "Everest" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Developer-Academy-Mackenzie-2021-2022/Everest";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
 /* Begin XCSwiftPackageProductDependency section */
-		A034EDAC27348F400050B8F7 /* FrameworkDeGraficos */ = {
+		2211D94F27359FA10040C5A6 /* Everest */ = {
 			isa = XCSwiftPackageProductDependency;
-			productName = FrameworkDeGraficos;
+			package = 2211D94E27359FA10040C5A6 /* XCRemoteSwiftPackageReference "Everest" */;
+			productName = Everest;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
